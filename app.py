@@ -21,9 +21,8 @@ es = Elasticsearch(
 print(es.info())
 
 
-st.subheader("영문 위키피디아 이용한")
+st.subheader("😊영문 위키피디아 이용한")
 st.title("한글로 답변하는 AI")
-st.subheader("부제 : Semantic search and Retrieval augmented generation using Elasticsearch and OpenAI")
 
 st.caption('''
 영문 Wiki에서 답변 가능한 질문에 대해서 답변을 잘합니다. 졸은 질문 예 : 
@@ -31,6 +30,7 @@ st.caption('''
 - 대한민국의 수도는?
 - 이순신의 출생년도는?
 - 도요타에서 가장 많이 팔리는 차는?
+- 삼성전자는 어떤 회사지?
 
 데이터 출처
 - https://cdn.openai.com/API/examples/data/vector_database_wikipedia_articles_embedded.zip
